@@ -119,35 +119,36 @@ footer a:hover {
 
 /* Centrer le menu de navigation */
 nav {
-    text-align: center; /* Centre le conteneur de navigation */
-    margin-top: 20px; /* Ajoute de l'espace au-dessus des boutons */
+    display: flex; 
+    text-align: center; 
+    margin-top: 20px; 
 }
 
 nav ul {
-    display: inline-flex; /* Transforme la liste en ligne tout en conservant les propriétés flexibles */
-    list-style: none; /* Supprime les puces */
+    display: inline-flex;
+    list-style: none;
     padding: 0;
-    gap: 15px; /* Ajoute de l'espace entre les boutons */
-    justify-content: center; /* Centre les boutons horizontalement */
+    gap: 20px; 
+    justify-content: center; 
 }
 
 nav ul li a {
     display: inline-block;
-    padding: 10px 20px; /* Ajoute de l'espace intérieur */
-    color: #fff; /* Couleur du texte blanc */
-    text-decoration: none; /* Supprime le soulignement */
-    background: linear-gradient(to right, #8b4513, #00008b); /* Dégradé marron -> bleu foncé */
-    border-radius: 25px; /* Coins arrondis pour un effet bouton */
-    font-size: 1em; /* Taille de police */
-    font-weight: bold; /* Met le texte en gras */
-    transition: all 0.3s ease; /* Transition pour les effets au survol */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre subtile */
+    padding: 10px 20px; 
+    color: #fff; 
+    text-decoration: none; 
+    background: linear-gradient(to right, DarkBlue, SaddleBrown); 
+    border-radius: 25px; 
+    font-size: 1em; 
+    font-weight: bold; 
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 nav ul li a:hover {
-    background: linear-gradient(to right, #00008b, #8b4513); /* Inverse le dégradé au survol */
-    transform: scale(1.05); /* Agrandit légèrement au survol */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Accentue l'ombre au survol */
+    background: linear-gradient(to right, SaddleBrown, DarkBlue); 
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
 }
 
 
