@@ -117,19 +117,18 @@ footer a:hover {
     text-decoration: underline; /* Souligne le lien au survol */
 }
 
-	/* Styles pour le menu de navigation */
-/* Centrer les boutons */
-nav ul {
-    list-style: none; /* Supprime les puces */
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center; /* Centre les boutons horizontalement */
-    gap: 15px; /* Ajoute de l'espace entre les boutons */
+/* Centrer le menu de navigation */
+nav {
+    text-align: center; /* Centre le conteneur de navigation */
+    margin-top: 20px; /* Ajoute de l'espace au-dessus des boutons */
 }
 
-nav ul li {
-    margin: 0;
+nav ul {
+    display: inline-flex; /* Transforme la liste en ligne tout en conservant les propriétés flexibles */
+    list-style: none; /* Supprime les puces */
+    padding: 0;
+    gap: 15px; /* Ajoute de l'espace entre les boutons */
+    justify-content: center; /* Centre les boutons horizontalement */
 }
 
 nav ul li a {
@@ -150,6 +149,8 @@ nav ul li a:hover {
     transform: scale(1.05); /* Agrandit légèrement au survol */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Accentue l'ombre au survol */
 }
+
+
 
 
 
