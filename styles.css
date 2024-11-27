@@ -118,6 +118,7 @@ footer a:hover {
 }
 
 	/* Styles pour le menu de navigation */
+/* Centrer les boutons */
 nav ul {
     list-style: none; /* Supprime les puces */
     padding: 0;
@@ -136,18 +137,19 @@ nav ul li a {
     padding: 10px 20px; /* Ajoute de l'espace intérieur */
     color: #fff; /* Couleur du texte blanc */
     text-decoration: none; /* Supprime le soulignement */
-    background: linear-gradient(to right, #6a11cb, #2575fc); /* Dégradé élégant */
+    background: linear-gradient(to right, #8b4513, #00008b); /* Dégradé marron -> bleu foncé */
     border-radius: 25px; /* Coins arrondis pour un effet bouton */
-    font-size: 1em; /* Taille de police adaptée */
+    font-size: 1em; /* Taille de police */
     font-weight: bold; /* Met le texte en gras */
     transition: all 0.3s ease; /* Transition pour les effets au survol */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre subtile */
 }
 
 nav ul li a:hover {
-    background: linear-gradient(to right, #2575fc, #6a11cb); /* Change le sens du dégradé au survol */
+    background: linear-gradient(to right, #00008b, #8b4513); /* Inverse le dégradé au survol */
     transform: scale(1.05); /* Agrandit légèrement au survol */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Accentue l'ombre au survol */
 }
+
 
 
