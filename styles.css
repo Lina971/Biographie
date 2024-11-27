@@ -102,4 +102,52 @@ p {
 	text-decoration: underline;
 }
 
+	footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-top: 2px solid #ddd;
+    margin-top: 30px;
+    font-size: 1em;
+    color: #333;
+}
+
+footer a:hover {
+    color: DarkBlue; /* Change la couleur du lien au survol */
+    text-decoration: underline; /* Souligne le lien au survol */
+}
+
+	/* Styles pour le menu de navigation */
+nav ul {
+    list-style: none; /* Supprime les puces */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centre les boutons horizontalement */
+    gap: 15px; /* Ajoute de l'espace entre les boutons */
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px; /* Ajoute de l'espace intérieur */
+    color: #fff; /* Couleur du texte blanc */
+    text-decoration: none; /* Supprime le soulignement */
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Dégradé élégant */
+    border-radius: 25px; /* Coins arrondis pour un effet bouton */
+    font-size: 1em; /* Taille de police adaptée */
+    font-weight: bold; /* Met le texte en gras */
+    transition: all 0.3s ease; /* Transition pour les effets au survol */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre subtile */
+}
+
+nav ul li a:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb); /* Change le sens du dégradé au survol */
+    transform: scale(1.05); /* Agrandit légèrement au survol */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Accentue l'ombre au survol */
+}
+
 
